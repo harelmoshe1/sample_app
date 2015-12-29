@@ -38,6 +38,16 @@ describe "Authentication" do
       it { should have_link('Sign out', href: signout_path) }
 
       it { should_not have_link('Sign in', href: signin_path) }
+
+      describe "should not have acces to new action in the users controller" do
+        before { post users_url }
+        specify { response.should redirect_to(root_url) }
+      end
+
+      describe "should not have acces to create action in the users controller" do
+        before { get new_user_path }
+        specify { response.should redirect_to(root_url) }
+      end      
       
       describe "followed by signout" do
         before { click_link "Sign out" }
