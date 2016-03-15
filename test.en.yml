@@ -1,0 +1,10 @@
+---
+en:
+  test_key:
+    test: Hi dude
+  test_key_2:
+    hey: you
+    test: Yo
+    test_too: S'up?
+    the_black_key: rocks
+    the_newest_key: is here
