@@ -1,5 +1,7 @@
 ---
 he:
+  test_key:
+    test: "היי חבוב"
   test_key_2:
     hey: "אתה"
     test: "יו"
