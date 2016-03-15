@@ -7,3 +7,8 @@ phraseapp:
     - file: ./test.yml
       params:
         file_format: yml
+  pull:
+    targets:
+    - file: ./test.<locale_name>.yml
+      params:
+        file_format: yml
