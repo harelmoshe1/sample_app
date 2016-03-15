@@ -1,0 +1,9 @@
+phraseapp:
+  access_token: 2e478f41098aa4fe79b8218ebc744e62f585e634a54c4493a4227465c71bb215
+  project_id: 14c2e8e72d1e212f4914949f3195ca58
+  file_format: yml
+  push:
+    sources:
+    - file: ./test.yml
+      params:
+        file_format: yml
