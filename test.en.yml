@@ -12,3 +12,5 @@ en:
     value: Hi
   key_that_suppose_to_be_in_a_single_tag_2:
     value: Hey'a
+  test_after_hook_change:
+    key: value
