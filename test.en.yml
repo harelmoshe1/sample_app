@@ -10,3 +10,5 @@ en:
     the_newest_key: is here
   key_that_suppose_to_be_in_a_single_tag:
     value: Hi
+  key_that_suppose_to_be_in_a_single_tag_2:
+    value: Hey'a
