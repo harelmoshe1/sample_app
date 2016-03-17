@@ -14,3 +14,4 @@ en:
     value: Hey'a
   test_after_hook_change:
     key: value
+    yes: no

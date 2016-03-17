@@ -4,11 +4,11 @@ phraseapp:
   file_format: yml
   push:
     sources:
-    - file: ./test.yml
+    - file: ./test.en.yml
       params:
         file_format: yml
   pull:
     targets:
-    - file: ./test.<locale_name>.yml
+    - file: ./locales/test.<locale_name>.yml
       params:
         file_format: yml
