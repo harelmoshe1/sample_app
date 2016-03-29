@@ -1,2 +1,3 @@
 ---
-	key_1: "value1"
+  en:
+    key_1: "value1"
