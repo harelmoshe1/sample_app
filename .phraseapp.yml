@@ -4,7 +4,7 @@ phraseapp:
   file_format: yml
   push:
     sources:
-    - file: ./test.en.yml
+    - file: ./*.en.yml
       params:
         file_format: yml
   pull:
